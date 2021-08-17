@@ -39,6 +39,14 @@ body {
 .nav-link-wrapper a:hover {
   color: #000;
 }
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
 /*Portfolio Styles*/
 .portfolio-items-wrapper {
   display: grid;
